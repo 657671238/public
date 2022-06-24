@@ -1,0 +1,1 @@
+nohup python -u train.py  --start_iter 500 --Ispretrained True --pretrained_sr CURTransformernet_epoch_481_.pth --csvfile continue_csv500.csv >train_500ep.txt 2>&1 &
